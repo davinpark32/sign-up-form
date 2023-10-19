@@ -9,37 +9,58 @@
   </head>
   <body>
     <div class="container">
-        <div class="cover-container">
-            <img src="./olympic.jpg" alt="olympic poster" class="cover-image"/>
-            <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente laboriosam incidunt officiis temporibus veniam neque at itaque. Harum ipsa quas delectus accusantium aut excepturi sunt enim laudantium, quae labore dicta!</div>
+      <div class="cover-container">
+        <img src="./olympic.jpg" alt="olympic poster" class="cover-image" />
+        <div class="card-body">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente
+          laboriosam incidunt officiis temporibus veniam neque at itaque. Harum
+          ipsa quas delectus accusantium aut excepturi sunt enim laudantium,
+          quae labore dicta!
         </div>
-        <main>
+      </div>
+      <main>
+        <div class="header">
           <h1>
-            This is not a real online service! You know you something like this in
-            your life to help you realize your deepest dreams. Sign up
+            This is not a real online service! You know you something like this
+            in your life to help you realize your deepest dreams. Sign up
             <em>now</em> to get started.
           </h1>
           <h1>You <em>know</em> you want to.</h1>
-          <div>
-            <form action="#" method="get">
-              <p>Let's do this!</p>
+        </div>
+        <div class="form-container">
+          <form action="#" method="get">
+            <p class="form-text">Let's do this!</p>
+            <div class="form-row">
               <label for="first-name">FIRST NAME</label>
-              <input type="text" id="first-name" name="first-name" />
+              <input type="text" id="first-name" name="first-name" required />
+            </div>
+            <div class="form-row">
               <label for="last-name">LAST NAME</label>
-              <input type="text" id="last-name" name="last-name" />
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+            <div class="form-row">
               <label for="email">EMAIL</label>
               <input type="email" id="email" name="email" />
+            </div>
+            <div class="form-row">
               <label for="phone">PHONE NUMBER</label>
               <input type="text" id="phone" name="phone" />
+            </div>
+            <div class="form-row">
               <label for="pwd">PASSWORD</label>
               <input type="password" id="pwd" name="password" />
+            </div>
+            <div class="form-row">
               <label for="pwd-confirm">CONFIRM PASSWORD</label>
               <input type="password" id="pwd-confirm" name="password-confirm" />
-              <button type="submit">Create Account</button>
-            </form>
-          </div>
-          <p>Already have an account? <a href="#">Log in</a></p>
-        </main>
+            </div>
+            <button type="submit">Create Account</button>
+          </form>
+        </div>
+        <div class="login">
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </main>
     </div>
   </body>
 </html>
