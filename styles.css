@@ -33,12 +33,15 @@ h1 {
 .card-body {
   position: absolute;
   width: 100%;
-  background: black;
-  opacity: 0.6;
-  color: white;
+  /* background: rgba(0, 0, 0, 0.1); */
+  color: #db0000;
+  letter-spacing: 1rem;
+  font-weight: bold;
+  transform: scale(.8, 1);
   top: 13rem;
   text-align: center;
   font-size: 1.3rem;
+  padding: 20px 0;
 }
 .form-container {
     background-color: #db0000;
